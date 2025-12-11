@@ -1,5 +1,6 @@
-const assert = require('chai').assert;
-const filterGifts = require('.');
+/* global describe, it */
+import { assert } from 'chai';
+import filterGifts from '.';
 
 describe('challenge-1', function () {
     it('test #1 should return type', function () {
